@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cd .. && next build frontend",
     "start": "next start",
     "lint": "eslint"
   },
